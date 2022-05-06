@@ -37,6 +37,7 @@ const ClimaProvider = ({ children }) => {
         busqueda,
         datosBusqueda,
         consultarClima,
+        resultado
       }}
     >
       {children}
