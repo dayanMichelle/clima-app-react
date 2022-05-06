@@ -13,11 +13,16 @@ const ClimaProvider = ({ children }) => {
         [e.target.name]: e.target.value
   })
 }
+
+const consultarClima = datos => {
+    console.log(datos);
+}
   return (
     <ClimaContext.Provider
       value={{
         busqueda,
-        datosBusqueda
+        datosBusqueda,
+        consultarClima
       }}
     >
       {children}
