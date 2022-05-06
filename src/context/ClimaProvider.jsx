@@ -12,6 +12,7 @@ const ClimaProvider = ({ children }) => {
         ...busqueda,
         [e.target.name]: e.target.value
   })
+}
   return (
     <ClimaContext.Provider
       value={{
